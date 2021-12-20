@@ -1,3 +1,18 @@
+
+
+// Math.floor() - Apvalina skaiciu i mazaja puse - 4.9 = 4
+// Math.round() - Apvalina skaiciu pagal matematines taisykles 4.5 = 5
+// Math.ceil() - Aplavina skaiciu i didziaja puse - 4.1 = 5
+// &&   - AND (IR) operatorius. Duoda reiksme TRUE, jei abi(!) salygos teisingos
+// %    - Isveda skaiciaus liekana
+// ||   - OR (ARBA) operatorius. Duoda reiksme TRUE, jei bent viena(!) salyga teisinga
+
+
+
+
+
+
+
 /* 
 PIRMA UZD
 */ 
@@ -162,17 +177,36 @@ else{
 /*
 DESIMTA UZD
 */
-let month = 0;
+// let month = 0;
 
-if(month == 2){
-    console.log("d=28");
-} 
-else if((month == 1) || (month == 3) || (month == 5) || (month == 7) || (month == 8) || (month == 10) || (month == 12)){
-    console.log("d=31");
-}
-else if((month == 4) || (month == 6) || (month == 9) || (month == 11)){
-    console.log("d=30");
-}
-else{
-    console.log("Iveskite menesio skaiciu nuo 1 iki 12");
-}
+// if(month == 2){
+//     console.log("d=28");
+// } 
+// else if((month == 1) || (month == 3) || (month == 5) || (month == 7) || (month == 8) || (month == 10) || (month == 12)){
+//     console.log("d=31");
+// }
+//  else if((month == 4) || (month == 6) || (month == 9) || (month == 11)){
+//      console.log("d=30");
+// }
+// else{
+//     console.log("Iveskite menesio skaiciu nuo 1 iki 12");
+// }
+
+
+// let month = 12;
+    
+// if((month < 13) && (month > 0)){
+//     if(month === 2){
+//             console.log("d=28");
+//     }
+//     else if((month === 4) || (month === 6) || (month === 9) || (month === 11)){
+//         console.log("d=30");
+//     }
+//     else{
+//         console.log("d=31");
+//     }
+// }
+// else{
+//     console.log("Iveskite menesio skaiciu nuo 1 iki 12");
+// }
+
